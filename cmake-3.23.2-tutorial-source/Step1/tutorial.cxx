@@ -1,6 +1,6 @@
 // A simple program that computes the square root of a number
 #include <cmath>
-#include <cstdlib>
+//#include <cstdlib>
 #include <iostream>
 #include <string>
 
@@ -12,7 +12,8 @@ int main(int argc, char* argv[])
   }
 
   // convert input to double
-  const double inputValue = atof(argv[1]);
+  //const double inputValue = atof(argv[1]);
+  const double inputValue = std::stod(argv[1]);
 
   // calculate square root
   const double outputValue = sqrt(inputValue);
