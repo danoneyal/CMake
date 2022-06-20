@@ -5,6 +5,8 @@
 #include <string>
 #include "add.h"
 #include "div.h"
+#include "sub.h"
+#include "mul.h"
 
 int main(int argc, char* argv[])
 {
@@ -21,6 +23,8 @@ int main(int argc, char* argv[])
   std::cout << "Anter cmake tutorial, argv[1]: "<< inputValue1  << " argv[2]: " << inputValue2<<std::endl;
   add(inputValue1,inputValue2);
   div(inputValue1,inputValue2);
+  sub(inputValue1,inputValue2);
+  mul(inputValue1,inputValue2);
   
   return 0;
 }
