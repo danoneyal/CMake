@@ -3,7 +3,7 @@
 //#include <cstdlib>
 #include <iostream>
 #include <string>
-
+#include "add.h"
 int main(int argc, char* argv[])
 {
   if (argc < 2) {
@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
   const double inputValue2 = std::stod(argv[2]);
 
   std::cout << "Anter cmake tutorial, argv[1]: "<< inputValue1  << " argv[2]: " << inputValue2<<std::endl;
-
+  add(inputValue1,inputValue2);
   // calculate square root
   //const double outputValue = add(inputValue1,);
   //std::cout << "The square root of " << inputValue << " is " << outputValue
