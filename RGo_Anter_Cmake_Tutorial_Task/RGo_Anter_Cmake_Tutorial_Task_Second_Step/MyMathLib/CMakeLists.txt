@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
 file(GLOB MY_MATH_LIB_LIB_SRC
-    "*.cpp"
 	"*.h"
 )
 # set the project name
@@ -18,11 +17,11 @@ list(APPEND EXTRA_LIBS MulLib)
   
 
 # add the library 
-add_library(MyMathLib STATIC
-	${MY_MATH_LIB_LIB_SRC}
-	)
+add_library(MyMathLib INTERFACE)
+#	${MY_MATH_LIB_LIB_SRC}
+#	)
 
-target_link_libraries(MyMathLib PUBLIC ${EXTRA_LIBS})
+target_link_libraries(MyMathLib PUBLIC INTERFACE ${EXTRA_LIBS})
 
 # state that anybody linking to us needs to include the current source dir
 target_include_directories(MyMathLib
