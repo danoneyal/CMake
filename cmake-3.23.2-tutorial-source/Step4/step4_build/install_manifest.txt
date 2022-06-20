@@ -1,0 +1,4 @@
+C:/Tutorial_Install/bin/Tutorial.exe
+C:/Tutorial_Install/include/TutorialConfig.h
+C:/Tutorial_Install/lib/MathFunctions.lib
+C:/Tutorial_Install/include/MathFunctions.h

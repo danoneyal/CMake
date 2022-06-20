@@ -2,7 +2,6 @@
 *.filters
 *.cmake
 *.cmake.in
-*.txt
 *.sln
 *.check_cache
 *.log

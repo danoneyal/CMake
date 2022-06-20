@@ -1,0 +1,7 @@
+project(Mathlib)
+add_subdirectory(DivLib)
+add_subdirectory(AddLib)
+add_subdirectory(SubLib)
+add_subdirectory(MulLib)
+add_library(Mathlib )
+target_link_libraries(Mathlib DivLib AddLib SubLib MulLib )

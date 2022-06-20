@@ -1,0 +1,3 @@
+C:/Source/CMake/cmake-3.23.2-tutorial-source/Step1_build/CMakeFiles/Tutorial.dir
+C:/Source/CMake/cmake-3.23.2-tutorial-source/Step1_build/CMakeFiles/ALL_BUILD.dir
+C:/Source/CMake/cmake-3.23.2-tutorial-source/Step1_build/CMakeFiles/ZERO_CHECK.dir
