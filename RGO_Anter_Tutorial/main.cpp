@@ -11,12 +11,12 @@ int main(int argc, char* argv[])
     return 1;
   }
 
-  std::cout << "call from main rgo cmake tutorial "<< std::endl;
-
   // convert input to double
   //const double inputValue = atof(argv[1]);
   const double inputValue1 = std::stod(argv[1]);
   const double inputValue2 = std::stod(argv[2]);
+
+  std::cout << "Anter cmake tutorial, argv[1]: "<< inputValue1  << " argv[2]: " << inputValue2<<std::endl;
 
   // calculate square root
   //const double outputValue = add(inputValue1,);
